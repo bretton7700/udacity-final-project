@@ -1,0 +1,28 @@
+[2023-12-26T11:36:08.177+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_project_dag.create_artists_table manual__2023-12-26T11:31:00.224027+00:00 [queued]>
+[2023-12-26T11:36:08.238+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_project_dag.create_artists_table manual__2023-12-26T11:31:00.224027+00:00 [queued]>
+[2023-12-26T11:36:08.239+0000] {taskinstance.py:2171} INFO - Starting attempt 2 of 4
+[2023-12-26T11:36:08.286+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): create_artists_table> on 2023-12-26 11:31:00.224027+00:00
+[2023-12-26T11:36:08.311+0000] {standard_task_runner.py:60} INFO - Started process 17260 to run task
+[2023-12-26T11:36:08.339+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'final_project_dag', 'create_artists_table', 'manual__2023-12-26T11:31:00.224027+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/final_project/final_project.py', '--cfg-path', '/tmp/tmpkws5zl1y']
+[2023-12-26T11:36:08.341+0000] {standard_task_runner.py:88} INFO - Job 76: Subtask create_artists_table
+[2023-12-26T11:36:08.500+0000] {task_command.py:423} INFO - Running <TaskInstance: final_project_dag.create_artists_table manual__2023-12-26T11:31:00.224027+00:00 [running]> on host d3aa51350085
+[2023-12-26T11:36:08.689+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Sparkify' AIRFLOW_CTX_DAG_ID='final_project_dag' AIRFLOW_CTX_TASK_ID='create_artists_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-26T11:31:00.224027+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-26T11:31:00.224027+00:00'
+[2023-12-26T11:36:08.691+0000] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+[2023-12-26T11:36:08.705+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T11:36:08.825+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T11:36:10.131+0000] {sql.py:432} INFO - Running statement: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);, parameters: None
+[2023-12-26T11:36:11.012+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=final_project_dag, task_id=create_artists_table, execution_date=20231226T113100, start_date=20231226T113608, end_date=20231226T113611
+[2023-12-26T11:36:11.075+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2023-12-26T11:36:11.111+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

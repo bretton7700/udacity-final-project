@@ -1,0 +1,46 @@
+[2023-12-25T18:01:41.297+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_data_to_redshift.create_table manual__2023-12-25T18:01:40.138545+00:00 [queued]>
+[2023-12-25T18:01:41.311+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_data_to_redshift.create_table manual__2023-12-25T18:01:40.138545+00:00 [queued]>
+[2023-12-25T18:01:41.311+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2023-12-25T18:01:41.332+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): create_table> on 2023-12-25 18:01:40.138545+00:00
+[2023-12-25T18:01:41.338+0000] {standard_task_runner.py:60} INFO - Started process 1751 to run task
+[2023-12-25T18:01:41.342+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'load_data_to_redshift', 'create_table', 'manual__2023-12-25T18:01:40.138545+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/redshift_data.py', '--cfg-path', '/tmp/tmpy7_y_nj1']
+[2023-12-25T18:01:41.343+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask create_table
+[2023-12-25T18:01:41.395+0000] {task_command.py:423} INFO - Running <TaskInstance: load_data_to_redshift.create_table manual__2023-12-25T18:01:40.138545+00:00 [running]> on host d3aa51350085
+[2023-12-25T18:01:41.489+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='load_data_to_redshift' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-25T18:01:40.138545+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-25T18:01:40.138545+00:00'
+[2023-12-25T18:01:41.490+0000] {sql.py:276} INFO - Executing: 
+CREATE TABLE IF NOT EXISTS trips (
+trip_id INTEGER NOT NULL,
+start_time TIMESTAMP NOT NULL,
+end_time TIMESTAMP NOT NULL,
+bikeid INTEGER NOT NULL,
+tripduration DECIMAL(16,2) NOT NULL,
+from_station_id INTEGER NOT NULL,
+from_station_name VARCHAR(100) NOT NULL,
+to_station_id INTEGER NOT NULL,
+to_station_name VARCHAR(100) NOT NULL,
+usertype VARCHAR(20),
+gender VARCHAR(6),
+birthyear INTEGER,
+PRIMARY KEY(trip_id))
+DISTSTYLE ALL;
+[2023-12-25T18:01:41.500+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-25T18:01:41.693+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-25T18:01:42.651+0000] {sql.py:432} INFO - Running statement: 
+CREATE TABLE IF NOT EXISTS trips (
+trip_id INTEGER NOT NULL,
+start_time TIMESTAMP NOT NULL,
+end_time TIMESTAMP NOT NULL,
+bikeid INTEGER NOT NULL,
+tripduration DECIMAL(16,2) NOT NULL,
+from_station_id INTEGER NOT NULL,
+from_station_name VARCHAR(100) NOT NULL,
+to_station_id INTEGER NOT NULL,
+to_station_name VARCHAR(100) NOT NULL,
+usertype VARCHAR(20),
+gender VARCHAR(6),
+birthyear INTEGER,
+PRIMARY KEY(trip_id))
+DISTSTYLE ALL;, parameters: None
+[2023-12-25T18:01:43.244+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=load_data_to_redshift, task_id=create_table, execution_date=20231225T180140, start_date=20231225T180141, end_date=20231225T180143
+[2023-12-25T18:01:43.291+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2023-12-25T18:01:43.343+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

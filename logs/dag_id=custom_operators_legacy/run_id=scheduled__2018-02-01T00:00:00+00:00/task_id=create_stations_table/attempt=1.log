@@ -1,0 +1,36 @@
+[2023-12-26T08:05:43.815+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: custom_operators_legacy.create_stations_table scheduled__2018-02-01T00:00:00+00:00 [queued]>
+[2023-12-26T08:05:43.831+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: custom_operators_legacy.create_stations_table scheduled__2018-02-01T00:00:00+00:00 [queued]>
+[2023-12-26T08:05:43.831+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2023-12-26T08:05:43.850+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): create_stations_table> on 2018-02-01 00:00:00+00:00
+[2023-12-26T08:05:43.859+0000] {standard_task_runner.py:60} INFO - Started process 14072 to run task
+[2023-12-26T08:05:43.864+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'custom_operators_legacy', 'create_stations_table', 'scheduled__2018-02-01T00:00:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/production/production.py', '--cfg-path', '/tmp/tmphmfd0wrm']
+[2023-12-26T08:05:43.865+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask create_stations_table
+[2023-12-26T08:05:43.937+0000] {task_command.py:423} INFO - Running <TaskInstance: custom_operators_legacy.create_stations_table scheduled__2018-02-01T00:00:00+00:00 [running]> on host d3aa51350085
+[2023-12-26T08:05:44.041+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='custom_operators_legacy' AIRFLOW_CTX_TASK_ID='create_stations_table' AIRFLOW_CTX_EXECUTION_DATE='2018-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2018-02-01T00:00:00+00:00'
+[2023-12-26T08:05:44.042+0000] {sql.py:276} INFO - Executing: 
+CREATE TABLE IF NOT EXISTS stations (
+id INTEGER NOT NULL,
+name VARCHAR(250) NOT NULL,
+city VARCHAR(100) NOT NULL,
+latitude DECIMAL(9, 6) NOT NULL,
+longitude DECIMAL(9, 6) NOT NULL,
+dpcapacity INTEGER NOT NULL,
+online_date TIMESTAMP NOT NULL,
+PRIMARY KEY(id))
+DISTSTYLE ALL;
+[2023-12-26T08:05:44.056+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T08:05:44.116+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T08:05:45.093+0000] {sql.py:432} INFO - Running statement: 
+CREATE TABLE IF NOT EXISTS stations (
+id INTEGER NOT NULL,
+name VARCHAR(250) NOT NULL,
+city VARCHAR(100) NOT NULL,
+latitude DECIMAL(9, 6) NOT NULL,
+longitude DECIMAL(9, 6) NOT NULL,
+dpcapacity INTEGER NOT NULL,
+online_date TIMESTAMP NOT NULL,
+PRIMARY KEY(id))
+DISTSTYLE ALL;, parameters: None
+[2023-12-26T08:05:46.340+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=custom_operators_legacy, task_id=create_stations_table, execution_date=20180201T000000, start_date=20231226T080543, end_date=20231226T080546
+[2023-12-26T08:05:46.369+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2023-12-26T08:05:46.401+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

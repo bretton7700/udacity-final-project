@@ -1,0 +1,210 @@
+[2023-12-26T10:57:25.988+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_project_dag.create_tables manual__2023-12-26T10:57:24.301119+00:00 [queued]>
+[2023-12-26T10:57:26.001+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_project_dag.create_tables manual__2023-12-26T10:57:24.301119+00:00 [queued]>
+[2023-12-26T10:57:26.001+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 4
+[2023-12-26T10:57:26.018+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): create_tables> on 2023-12-26 10:57:24.301119+00:00
+[2023-12-26T10:57:26.030+0000] {standard_task_runner.py:60} INFO - Started process 16625 to run task
+[2023-12-26T10:57:26.036+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'final_project_dag', 'create_tables', 'manual__2023-12-26T10:57:24.301119+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/final_project/final_project.py', '--cfg-path', '/tmp/tmpuftlj4j1']
+[2023-12-26T10:57:26.038+0000] {standard_task_runner.py:88} INFO - Job 45: Subtask create_tables
+[2023-12-26T10:57:26.117+0000] {task_command.py:423} INFO - Running <TaskInstance: final_project_dag.create_tables manual__2023-12-26T10:57:24.301119+00:00 [running]> on host d3aa51350085
+[2023-12-26T10:57:26.252+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Sparkify' AIRFLOW_CTX_DAG_ID='final_project_dag' AIRFLOW_CTX_TASK_ID='create_tables' AIRFLOW_CTX_EXECUTION_DATE='2023-12-26T10:57:24.301119+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-26T10:57:24.301119+00:00'
+[2023-12-26T10:57:26.253+0000] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+[2023-12-26T10:57:26.276+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T10:57:26.341+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T10:57:27.273+0000] {sql.py:432} INFO - Running statement: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);, parameters: None
+[2023-12-26T10:57:27.283+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:437: UserWarning: DB-API extension cursor.connection used
+  cur.execute(sql_statement)
+
+[2023-12-26T10:57:27.284+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/core.py", line 1793, in execute
+    ps = cache["ps"][key]
+KeyError: ('CREATE TABLE IF NOT EXISTS public.artists (\n\tartistid varchar(256) NOT NULL,\n\tname varchar(256),\n\tlocation varchar(256),\n\tlattitude numeric(18,0),\n\tlongitude numeric(18,0)\n);\n\nCREATE TABLE IF NOT EXISTS public.songplays (\n\tplayid varchar(32) NOT NULL,\n\tstart_time timestamp NOT NULL,\n\tuserid int4 NOT NULL,\n\t"level" varchar(256),\n\tsongid varchar(256),\n\tartistid varchar(256),\n\tsessionid int4,\n\tlocation varchar(256),\n\tuser_agent varchar(256),\n\tCONSTRAINT songplays_pkey PRIMARY KEY (playid)\n);\n\nCREATE TABLE IF NOT EXISTS public.songs (\n\tsongid varchar(256) NOT NULL,\n\ttitle varchar(256),\n\tartistid varchar(256),\n\t"year" int4,\n\tduration numeric(18,0),\n\tCONSTRAINT songs_pkey PRIMARY KEY (songid)\n);\n\nCREATE TABLE IF NOT EXISTS public.staging_events (\n\tartist varchar(256),\n\tauth varchar(256),\n\tfirstname varchar(256),\n\tgender varchar(256),\n\titeminsession int4,\n\tlastname varchar(256),\n\tlength numeric(18,0),\n\t"level" varchar(256),\n\tlocation varchar(256),\n\t"method" varchar(256),\n\tpage varchar(256),\n\tregistration numeric(18,0),\n\tsessionid int4,\n\tsong varchar(256),\n\tstatus int4,\n\tts int8,\n\tuseragent varchar(256),\n\tuserid int4\n);\n\nCREATE TABLE IF NOT EXISTS public.staging_songs (\n\tnum_songs int4,\n\tartist_id varchar(256),\n\tartist_name varchar(256),\n\tartist_latitude numeric(18,0),\n\tartist_longitude numeric(18,0),\n\tartist_location varchar(256),\n\tsong_id varchar(256),\n\ttitle varchar(256),\n\tduration numeric(18,0),\n\t"year" int4\n);\n\nCREATE TABLE IF NOT EXISTS public."time" (\n\tstart_time timestamp NOT NULL,\n\t"hour" int4,\n\t"day" int4,\n\tweek int4,\n\t"month" varchar(256),\n\t"year" int4,\n\tweekday varchar(256),\n\tCONSTRAINT time_pkey PRIMARY KEY (start_time)\n);\n\nCREATE TABLE IF NOT EXISTS public.users (\n\tuserid int4 NOT NULL,\n\tfirst_name varchar(256),\n\tlast_name varchar(256),\n\tgender varchar(256),\n\t"level" varchar(256),\n\tCONSTRAINT users_pkey PRIMARY KEY (userid)\n);', ())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 437, in _run_command
+    cur.execute(sql_statement)
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/cursor.py", line 248, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/cursor.py", line 241, in execute
+    self._c.execute(self, operation, args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/core.py", line 1874, in execute
+    self.handle_messages(cursor)
+  File "/home/airflow/.local/lib/python3.8/site-packages/redshift_connector/core.py", line 2166, in handle_messages
+    raise self.error
+redshift_connector.error.ProgrammingError: {'S': 'ERROR', 'C': '42601', 'M': 'cannot insert multiple commands into a prepared statement', 'F': '../src/pg/src/backend/tcop/postgres.c', 'L': '4033', 'R': 'exec_parse_message'}
+[2023-12-26T10:57:27.293+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=final_project_dag, task_id=create_tables, execution_date=20231226T105724, start_date=20231226T105725, end_date=20231226T105727
+[2023-12-26T10:57:27.306+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 45 for task create_tables ({'S': 'ERROR', 'C': '42601', 'M': 'cannot insert multiple commands into a prepared statement', 'F': '../src/pg/src/backend/tcop/postgres.c', 'L': '4033', 'R': 'exec_parse_message'}; 16625)
+[2023-12-26T10:57:27.336+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2023-12-26T10:57:27.369+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

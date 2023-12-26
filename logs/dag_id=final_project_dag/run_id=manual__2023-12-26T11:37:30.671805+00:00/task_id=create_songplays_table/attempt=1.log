@@ -1,0 +1,38 @@
+[2023-12-26T11:37:33.455+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_project_dag.create_songplays_table manual__2023-12-26T11:37:30.671805+00:00 [queued]>
+[2023-12-26T11:37:33.483+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_project_dag.create_songplays_table manual__2023-12-26T11:37:30.671805+00:00 [queued]>
+[2023-12-26T11:37:33.485+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 4
+[2023-12-26T11:37:33.518+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): create_songplays_table> on 2023-12-26 11:37:30.671805+00:00
+[2023-12-26T11:37:33.537+0000] {standard_task_runner.py:60} INFO - Started process 17293 to run task
+[2023-12-26T11:37:33.548+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'final_project_dag', 'create_songplays_table', 'manual__2023-12-26T11:37:30.671805+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/final_project/final_project.py', '--cfg-path', '/tmp/tmpi611hijo']
+[2023-12-26T11:37:33.551+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask create_songplays_table
+[2023-12-26T11:37:33.719+0000] {task_command.py:423} INFO - Running <TaskInstance: final_project_dag.create_songplays_table manual__2023-12-26T11:37:30.671805+00:00 [running]> on host d3aa51350085
+[2023-12-26T11:37:33.971+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Sparkify' AIRFLOW_CTX_DAG_ID='final_project_dag' AIRFLOW_CTX_TASK_ID='create_songplays_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-26T11:37:30.671805+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-26T11:37:30.671805+00:00'
+[2023-12-26T11:37:33.973+0000] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+[2023-12-26T11:37:34.011+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T11:37:34.224+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T11:37:35.875+0000] {sql.py:432} INFO - Running statement: CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);, parameters: None
+[2023-12-26T11:37:37.170+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=final_project_dag, task_id=create_songplays_table, execution_date=20231226T113730, start_date=20231226T113733, end_date=20231226T113737
+[2023-12-26T11:37:37.276+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2023-12-26T11:37:37.359+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

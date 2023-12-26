@@ -1,0 +1,61 @@
+[2023-12-26T09:47:25.817+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_data_to_redshift.load_task manual__2023-12-26T09:47:21.294163+00:00 [queued]>
+[2023-12-26T09:47:25.837+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_data_to_redshift.load_task manual__2023-12-26T09:47:21.294163+00:00 [queued]>
+[2023-12-26T09:47:25.837+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2023-12-26T09:47:25.862+0000] {taskinstance.py:2192} INFO - Executing <Task(_PythonDecoratedOperator): load_task> on 2023-12-26 09:47:21.294163+00:00
+[2023-12-26T09:47:25.872+0000] {standard_task_runner.py:60} INFO - Started process 15587 to run task
+[2023-12-26T09:47:25.876+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'load_data_to_redshift', 'load_task', 'manual__2023-12-26T09:47:21.294163+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/redshift_data.py', '--cfg-path', '/tmp/tmpb7jvecet']
+[2023-12-26T09:47:25.877+0000] {standard_task_runner.py:88} INFO - Job 38: Subtask load_task
+[2023-12-26T09:47:25.942+0000] {task_command.py:423} INFO - Running <TaskInstance: load_data_to_redshift.load_task manual__2023-12-26T09:47:21.294163+00:00 [running]> on host d3aa51350085
+[2023-12-26T09:47:26.061+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='load_data_to_redshift' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2023-12-26T09:47:21.294163+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-26T09:47:21.294163+00:00'
+[2023-12-26T09:47:26.084+0000] {base.py:83} INFO - Using connection ID 'redshift' for task execution.
+[2023-12-26T09:47:26.138+0000] {sql.py:432} INFO - Running statement: 
+COPY trips
+FROM 's3://gitongabretton/data-pipelines/divvy/unpartitioned/divvy_trips_2018.csv'
+ACCESS_KEY_ID 'AKIATZS7MBBSL3CADLWH'
+SECRET_ACCESS_KEY '***'
+IGNOREHEADER 1
+DELIMITER ','
+, parameters: None
+[2023-12-26T10:55:25.791+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 242, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/redshift_data.py", line 23, in load_task
+    redshift_hook.run(sql_statements.COPY_ALL_TRIPS_SQL.format(aws_connection.login, aws_connection.password))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 437, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.InternalError_: S3CurlException: Failed to connect to s3.us-east-1.amazonaws.com port 443: Connection timed out, CurlError 28, multiCurlError 0, CanRetry 1, UserError 0
+DETAIL:  
+  -----------------------------------------------
+  error:  S3CurlException: Failed to connect to s3.us-east-1.amazonaws.com port 443: Connection timed out, CurlError 28, multiCurlError 0, CanRetry 1, UserError 0
+  code:      9002
+  context:   Listing bucket=gitongabretton prefix=data-pipelines/divvy/unpartitioned/divvy_trips_2018.csv
+  query:     412692[child_sequence:1]
+  location:  s3_utility.cpp:702
+  process:   padbmaster [pid=1073995999]
+  -----------------------------------------------
+
+
+[2023-12-26T10:55:25.813+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=load_data_to_redshift, task_id=load_task, execution_date=20231226T094721, start_date=20231226T094725, end_date=20231226T105525
+[2023-12-26T10:55:25.831+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 38 for task load_task (S3CurlException: Failed to connect to s3.us-east-1.amazonaws.com port 443: Connection timed out, CurlError 28, multiCurlError 0, CanRetry 1, UserError 0
+DETAIL:  
+  -----------------------------------------------
+  error:  S3CurlException: Failed to connect to s3.us-east-1.amazonaws.com port 443: Connection timed out, CurlError 28, multiCurlError 0, CanRetry 1, UserError 0
+  code:      9002
+  context:   Listing bucket=gitongabretton prefix=data-pipelines/divvy/unpartitioned/divvy_trips_2018.csv
+  query:     412692[child_sequence:1]
+  location:  s3_utility.cpp:702
+  process:   padbmaster [pid=1073995999]
+  -----------------------------------------------
+
+; 15587)
+[2023-12-26T10:55:25.877+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2023-12-26T10:55:25.913+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
