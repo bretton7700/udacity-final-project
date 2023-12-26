@@ -10316,3 +10316,157 @@
 [2023-12-26T12:31:03.839+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:03.839+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2023-12-26T12:31:03.861+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:03.860+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:31:03.691683+00:00, run_after=2023-12-27T12:31:03.691683+00:00
 [2023-12-26T12:31:03.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.203 seconds
+[2023-12-26T12:31:34.199+0000] {processor.py:161} INFO - Started process (PID=33791) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:31:34.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:31:34.201+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:34.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:31:34.219+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:31:34.385+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:34.385+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:31:34.413+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:34.413+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:31:34.206310+00:00, run_after=2023-12-27T12:31:34.206310+00:00
+[2023-12-26T12:31:34.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.246 seconds
+[2023-12-26T12:32:04.736+0000] {processor.py:161} INFO - Started process (PID=33807) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:32:04.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:32:04.739+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:32:04.756+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:32:04.948+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.948+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:04.970+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.970+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:32:04.744303+00:00, run_after=2023-12-27T12:32:04.744303+00:00
+[2023-12-26T12:32:04.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.265 seconds
+[2023-12-26T12:32:35.046+0000] {processor.py:161} INFO - Started process (PID=33823) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:32:35.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:32:35.048+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:35.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:32:35.063+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:32:35.240+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:35.240+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:35.265+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:35.265+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:32:35.052116+00:00, run_after=2023-12-27T12:32:35.052116+00:00
+[2023-12-26T12:32:35.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.259 seconds
+[2023-12-26T12:33:05.805+0000] {processor.py:161} INFO - Started process (PID=33845) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:33:05.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:33:05.808+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:05.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:33:05.831+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:33:06.027+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:06.027+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:06.074+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:06.070+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:33:05.813977+00:00, run_after=2023-12-27T12:33:05.813977+00:00
+[2023-12-26T12:33:06.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.322 seconds
+[2023-12-26T12:33:36.387+0000] {processor.py:161} INFO - Started process (PID=33862) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:33:36.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:33:36.389+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:33:36.411+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:33:36.617+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.616+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:36.649+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.649+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:33:36.395628+00:00, run_after=2023-12-27T12:33:36.395628+00:00
+[2023-12-26T12:33:36.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.300 seconds
+[2023-12-26T12:34:06.803+0000] {processor.py:161} INFO - Started process (PID=33877) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:34:06.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:34:06.806+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.805+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:34:06.824+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:34:06.969+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.969+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:06.991+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.991+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:34:06.810157+00:00, run_after=2023-12-27T12:34:06.810157+00:00
+[2023-12-26T12:34:07.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.227 seconds
+[2023-12-26T12:34:37.398+0000] {processor.py:161} INFO - Started process (PID=33893) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:34:37.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:34:37.401+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:34:37.416+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:34:37.548+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.547+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:37.572+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.571+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:34:37.405465+00:00, run_after=2023-12-27T12:34:37.405465+00:00
+[2023-12-26T12:34:37.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.200 seconds
+[2023-12-26T12:35:07.807+0000] {processor.py:161} INFO - Started process (PID=33909) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:35:07.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:35:07.809+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:07.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:35:07.846+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:35:07.988+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:07.988+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:08.023+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:08.023+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:35:07.824841+00:00, run_after=2023-12-27T12:35:07.824841+00:00
+[2023-12-26T12:35:08.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.244 seconds
+[2023-12-26T12:35:38.236+0000] {processor.py:161} INFO - Started process (PID=33925) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:35:38.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:35:38.238+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:38.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:35:38.256+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:35:38.430+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:38.430+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:38.453+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:38.453+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:35:38.243322+00:00, run_after=2023-12-27T12:35:38.243322+00:00
+[2023-12-26T12:35:38.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.249 seconds
+[2023-12-26T12:36:08.596+0000] {processor.py:161} INFO - Started process (PID=33941) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:36:08.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:36:08.598+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:36:08.619+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:36:08.761+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.761+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:08.786+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.786+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:36:08.603997+00:00, run_after=2023-12-27T12:36:08.603997+00:00
+[2023-12-26T12:36:08.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.219 seconds
+[2023-12-26T12:36:39.069+0000] {processor.py:161} INFO - Started process (PID=33957) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:36:39.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:36:39.072+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:39.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:36:39.091+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:36:39.246+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:39.245+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:39.272+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:39.271+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:36:39.078173+00:00, run_after=2023-12-27T12:36:39.078173+00:00
+[2023-12-26T12:36:39.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.232 seconds
+[2023-12-26T12:37:09.734+0000] {processor.py:161} INFO - Started process (PID=33975) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:37:09.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:37:09.736+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.735+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:37:09.755+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:37:09.886+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.886+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:09.927+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.926+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:37:09.741054+00:00, run_after=2023-12-27T12:37:09.741054+00:00
+[2023-12-26T12:37:09.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.223 seconds
+[2023-12-26T12:37:40.096+0000] {processor.py:161} INFO - Started process (PID=33992) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:37:40.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:37:40.098+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:40.098+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:37:40.120+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:37:40.275+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:40.275+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:40.298+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:40.298+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:37:40.103083+00:00, run_after=2023-12-27T12:37:40.103083+00:00
+[2023-12-26T12:37:40.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.238 seconds
+[2023-12-26T12:38:10.492+0000] {processor.py:161} INFO - Started process (PID=34008) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:38:10.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:38:10.494+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:38:10.516+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:38:10.668+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.667+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:10.689+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.689+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:38:10.500815+00:00, run_after=2023-12-27T12:38:10.500815+00:00
+[2023-12-26T12:38:10.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.227 seconds
+[2023-12-26T12:38:40.825+0000] {processor.py:161} INFO - Started process (PID=34023) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:38:40.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:38:40.828+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:40.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:38:40.847+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:38:40.979+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:40.979+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:41.002+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:41.002+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:38:40.833693+00:00, run_after=2023-12-27T12:38:40.833693+00:00
+[2023-12-26T12:38:41.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.205 seconds
+[2023-12-26T12:39:11.254+0000] {processor.py:161} INFO - Started process (PID=34039) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:39:11.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:39:11.257+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:11.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:39:11.277+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:39:11.438+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:11.438+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:11.469+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:11.468+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:39:11.262059+00:00, run_after=2023-12-27T12:39:11.262059+00:00
+[2023-12-26T12:39:11.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.248 seconds
+[2023-12-26T12:39:42.302+0000] {processor.py:161} INFO - Started process (PID=34055) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:39:42.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:39:42.304+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:39:42.322+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:39:42.494+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.493+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:42.515+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.515+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:39:42.308580+00:00, run_after=2023-12-27T12:39:42.308580+00:00
+[2023-12-26T12:39:42.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.238 seconds
+[2023-12-26T12:40:12.650+0000] {processor.py:161} INFO - Started process (PID=34072) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:40:12.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:40:12.652+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:40:12.669+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:40:12.841+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.841+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:12.872+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.872+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:40:12.656580+00:00, run_after=2023-12-27T12:40:12.656580+00:00
+[2023-12-26T12:40:12.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.257 seconds
+[2023-12-26T12:40:43.035+0000] {processor.py:161} INFO - Started process (PID=34088) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:40:43.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:40:43.037+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:43.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:40:43.060+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:40:43.189+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:43.189+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:43.212+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:43.211+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:40:43.043054+00:00, run_after=2023-12-27T12:40:43.043054+00:00
+[2023-12-26T12:40:43.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.203 seconds
+[2023-12-26T12:41:14.079+0000] {processor.py:161} INFO - Started process (PID=34103) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:41:14.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:41:14.082+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:14.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:41:14.100+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:41:14.262+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:14.262+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:14.288+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:14.287+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:41:14.088472+00:00, run_after=2023-12-27T12:41:14.088472+00:00
+[2023-12-26T12:41:14.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.237 seconds
+[2023-12-26T12:41:44.487+0000] {processor.py:161} INFO - Started process (PID=34119) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:41:44.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:41:44.489+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:41:44.507+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:41:44.643+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.643+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:44.666+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.666+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:41:44.493107+00:00, run_after=2023-12-27T12:41:44.493107+00:00
+[2023-12-26T12:41:44.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.206 seconds
+[2023-12-26T12:42:14.960+0000] {processor.py:161} INFO - Started process (PID=34134) to work on /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:42:14.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/lineage/quality.py for tasks to queue
+[2023-12-26T12:42:14.963+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:14.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:42:14.979+0000] {processor.py:840} INFO - DAG(s) 'data_quality' retrieved from /opt/airflow/dags/lineage/quality.py
+[2023-12-26T12:42:15.112+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:15.112+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:42:15.137+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:15.137+0000] {dag.py:3820} INFO - Setting next_dagrun for data_quality to 2023-12-26T12:42:14.968249+00:00, run_after=2023-12-27T12:42:14.968249+00:00
+[2023-12-26T12:42:15.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/lineage/quality.py took 0.204 seconds

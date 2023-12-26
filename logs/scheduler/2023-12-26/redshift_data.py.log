@@ -10316,3 +10316,157 @@
 [2023-12-26T12:31:05.219+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:05.219+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2023-12-26T12:31:05.256+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:05.256+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:31:05.066957+00:00, run_after=2023-12-27T12:31:05.066957+00:00
 [2023-12-26T12:31:05.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.227 seconds
+[2023-12-26T12:31:35.578+0000] {processor.py:161} INFO - Started process (PID=33801) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:31:35.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:31:35.581+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:35.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:31:35.597+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:31:35.764+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:35.764+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:31:35.788+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:35.788+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:31:35.587251+00:00, run_after=2023-12-27T12:31:35.587251+00:00
+[2023-12-26T12:31:35.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.241 seconds
+[2023-12-26T12:32:06.179+0000] {processor.py:161} INFO - Started process (PID=33817) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:32:06.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:32:06.181+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:06.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:32:06.197+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:32:06.363+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:06.362+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:06.386+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:06.386+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:32:06.185939+00:00, run_after=2023-12-27T12:32:06.185939+00:00
+[2023-12-26T12:32:06.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.237 seconds
+[2023-12-26T12:32:36.566+0000] {processor.py:161} INFO - Started process (PID=33833) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:32:36.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:32:36.573+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:36.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:32:36.598+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:32:36.800+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:36.799+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:36.826+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:36.826+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:32:36.585156+00:00, run_after=2023-12-27T12:32:36.585156+00:00
+[2023-12-26T12:32:36.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.293 seconds
+[2023-12-26T12:33:07.252+0000] {processor.py:161} INFO - Started process (PID=33849) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:33:07.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:33:07.254+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:07.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:33:07.278+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:33:07.479+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:07.479+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:07.509+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:07.508+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:33:07.260980+00:00, run_after=2023-12-27T12:33:07.260980+00:00
+[2023-12-26T12:33:07.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.294 seconds
+[2023-12-26T12:33:37.737+0000] {processor.py:161} INFO - Started process (PID=33865) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:33:37.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:33:37.740+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:37.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:33:37.757+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:33:37.970+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:37.970+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:38.024+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:38.024+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:33:37.744975+00:00, run_after=2023-12-27T12:33:37.744975+00:00
+[2023-12-26T12:33:38.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.331 seconds
+[2023-12-26T12:34:08.119+0000] {processor.py:161} INFO - Started process (PID=33881) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:34:08.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:34:08.122+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:08.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:34:08.139+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:34:08.308+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:08.308+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:08.333+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:08.333+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:34:08.128097+00:00, run_after=2023-12-27T12:34:08.128097+00:00
+[2023-12-26T12:34:08.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.240 seconds
+[2023-12-26T12:34:38.924+0000] {processor.py:161} INFO - Started process (PID=33897) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:34:38.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:34:38.925+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:38.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:34:38.939+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:34:39.076+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:39.075+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:39.103+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:39.103+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:34:38.929914+00:00, run_after=2023-12-27T12:34:38.929914+00:00
+[2023-12-26T12:34:39.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.202 seconds
+[2023-12-26T12:35:09.177+0000] {processor.py:161} INFO - Started process (PID=33913) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:35:09.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:35:09.179+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:09.179+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:35:09.193+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:35:09.312+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:09.312+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:09.336+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:09.335+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:35:09.184151+00:00, run_after=2023-12-27T12:35:09.184151+00:00
+[2023-12-26T12:35:09.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.181 seconds
+[2023-12-26T12:35:39.563+0000] {processor.py:161} INFO - Started process (PID=33929) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:35:39.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:35:39.565+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:39.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:35:39.580+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:35:39.718+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:39.718+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:39.746+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:39.746+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:35:39.569724+00:00, run_after=2023-12-27T12:35:39.569724+00:00
+[2023-12-26T12:35:39.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.208 seconds
+[2023-12-26T12:36:09.923+0000] {processor.py:161} INFO - Started process (PID=33945) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:36:09.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:36:09.926+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:09.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:36:09.943+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:36:10.124+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:10.124+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:10.163+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:10.162+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:36:09.931353+00:00, run_after=2023-12-27T12:36:09.931353+00:00
+[2023-12-26T12:36:10.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.275 seconds
+[2023-12-26T12:36:40.392+0000] {processor.py:161} INFO - Started process (PID=33961) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:36:40.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:36:40.395+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:40.395+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:36:40.417+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:36:40.582+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:40.582+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:40.609+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:40.609+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:36:40.403044+00:00, run_after=2023-12-27T12:36:40.403044+00:00
+[2023-12-26T12:36:40.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.246 seconds
+[2023-12-26T12:37:10.988+0000] {processor.py:161} INFO - Started process (PID=33978) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:37:10.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:37:10.990+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:10.989+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:37:11.002+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:37:11.122+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:11.122+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:11.143+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:11.143+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:37:10.993829+00:00, run_after=2023-12-27T12:37:10.993829+00:00
+[2023-12-26T12:37:11.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.183 seconds
+[2023-12-26T12:37:41.363+0000] {processor.py:161} INFO - Started process (PID=33994) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:37:41.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:37:41.365+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:41.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:37:41.378+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:37:41.494+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:41.494+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:41.516+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:41.515+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:37:41.369508+00:00, run_after=2023-12-27T12:37:41.369508+00:00
+[2023-12-26T12:37:41.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.177 seconds
+[2023-12-26T12:38:11.747+0000] {processor.py:161} INFO - Started process (PID=34011) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:38:11.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:38:11.748+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:11.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:38:11.762+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:38:11.916+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:11.916+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:11.945+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:11.945+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:38:11.752963+00:00, run_after=2023-12-27T12:38:11.752963+00:00
+[2023-12-26T12:38:11.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.233 seconds
+[2023-12-26T12:38:42.133+0000] {processor.py:161} INFO - Started process (PID=34027) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:38:42.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:38:42.136+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:42.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:38:42.154+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:38:42.304+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:42.304+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:42.339+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:42.338+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:38:42.141101+00:00, run_after=2023-12-27T12:38:42.141101+00:00
+[2023-12-26T12:38:42.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.237 seconds
+[2023-12-26T12:39:12.636+0000] {processor.py:161} INFO - Started process (PID=34043) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:39:12.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:39:12.640+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:12.639+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:39:12.654+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:39:12.811+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:12.811+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:12.836+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:12.836+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:39:12.644320+00:00, run_after=2023-12-27T12:39:12.644320+00:00
+[2023-12-26T12:39:12.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.229 seconds
+[2023-12-26T12:39:43.698+0000] {processor.py:161} INFO - Started process (PID=34059) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:39:43.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:39:43.701+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:43.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:39:43.716+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:39:43.855+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:43.855+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:43.877+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:43.877+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:39:43.705427+00:00, run_after=2023-12-27T12:39:43.705427+00:00
+[2023-12-26T12:39:43.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.208 seconds
+[2023-12-26T12:40:13.941+0000] {processor.py:161} INFO - Started process (PID=34075) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:40:13.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:40:13.951+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:13.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:40:13.971+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:40:14.113+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:14.113+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:14.140+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:14.139+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:40:13.959416+00:00, run_after=2023-12-27T12:40:13.959416+00:00
+[2023-12-26T12:40:14.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.228 seconds
+[2023-12-26T12:40:44.271+0000] {processor.py:161} INFO - Started process (PID=34091) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:40:44.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:40:44.273+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:44.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:40:44.286+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:40:44.432+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:44.431+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:44.457+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:44.457+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:40:44.277257+00:00, run_after=2023-12-27T12:40:44.277257+00:00
+[2023-12-26T12:40:44.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.209 seconds
+[2023-12-26T12:41:14.539+0000] {processor.py:161} INFO - Started process (PID=34107) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:41:14.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:41:14.542+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:14.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:41:14.562+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:41:14.748+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:14.748+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:14.770+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:14.770+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:41:14.547539+00:00, run_after=2023-12-27T12:41:14.547539+00:00
+[2023-12-26T12:41:14.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.264 seconds
+[2023-12-26T12:41:44.885+0000] {processor.py:161} INFO - Started process (PID=34123) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:41:44.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:41:44.888+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:41:44.905+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:41:45.084+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:45.083+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:45.115+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:45.114+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:41:44.893444+00:00, run_after=2023-12-27T12:41:44.893444+00:00
+[2023-12-26T12:41:45.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.261 seconds
+[2023-12-26T12:42:15.299+0000] {processor.py:161} INFO - Started process (PID=34138) to work on /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:42:15.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/redshift_data.py for tasks to queue
+[2023-12-26T12:42:15.301+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:15.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:42:15.315+0000] {processor.py:840} INFO - DAG(s) 'load_data_to_redshift' retrieved from /opt/airflow/dags/redshift_data.py
+[2023-12-26T12:42:15.499+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:15.498+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:42:15.524+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:15.524+0000] {dag.py:3820} INFO - Setting next_dagrun for load_data_to_redshift to 2023-12-26T12:42:15.305801+00:00, run_after=2023-12-27T12:42:15.305801+00:00
+[2023-12-26T12:42:15.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/redshift_data.py took 0.252 seconds

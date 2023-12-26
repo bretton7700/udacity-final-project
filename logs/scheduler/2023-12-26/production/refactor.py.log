@@ -10316,3 +10316,157 @@
 [2023-12-26T12:31:03.673+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:03.672+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2023-12-26T12:31:03.701+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:03.700+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:31:03.498582+00:00, run_after=2023-12-27T12:31:03.498582+00:00
 [2023-12-26T12:31:03.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.243 seconds
+[2023-12-26T12:31:33.992+0000] {processor.py:161} INFO - Started process (PID=33790) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:31:33.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:31:33.994+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:33.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:31:34.008+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:31:34.169+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:34.168+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:31:34.202+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:34.202+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:31:33.997494+00:00, run_after=2023-12-27T12:31:33.997494+00:00
+[2023-12-26T12:31:34.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.239 seconds
+[2023-12-26T12:32:04.470+0000] {processor.py:161} INFO - Started process (PID=33806) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:32:04.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:32:04.474+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:32:04.494+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:32:04.692+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.692+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:04.729+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.728+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:32:04.477975+00:00, run_after=2023-12-27T12:32:04.477975+00:00
+[2023-12-26T12:32:04.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.303 seconds
+[2023-12-26T12:32:34.845+0000] {processor.py:161} INFO - Started process (PID=33822) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:32:34.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:32:34.847+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:34.847+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:32:34.876+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:32:35.122+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:35.122+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:35.164+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:35.164+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:32:34.851293+00:00, run_after=2023-12-27T12:32:34.851293+00:00
+[2023-12-26T12:32:35.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.362 seconds
+[2023-12-26T12:33:05.470+0000] {processor.py:161} INFO - Started process (PID=33838) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:33:05.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:33:05.472+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:05.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:33:05.491+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:33:05.731+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:05.730+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:05.769+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:05.768+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:33:05.476240+00:00, run_after=2023-12-27T12:33:05.476240+00:00
+[2023-12-26T12:33:05.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.352 seconds
+[2023-12-26T12:33:36.107+0000] {processor.py:161} INFO - Started process (PID=33860) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:33:36.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:33:36.109+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:33:36.127+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:33:36.266+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.265+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:36.304+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.304+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:33:36.113974+00:00, run_after=2023-12-27T12:33:36.113974+00:00
+[2023-12-26T12:33:36.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.229 seconds
+[2023-12-26T12:34:06.548+0000] {processor.py:161} INFO - Started process (PID=33876) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:34:06.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:34:06.549+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:34:06.566+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:34:06.758+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.758+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:06.780+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.780+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:34:06.552755+00:00, run_after=2023-12-27T12:34:06.552755+00:00
+[2023-12-26T12:34:06.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.258 seconds
+[2023-12-26T12:34:37.158+0000] {processor.py:161} INFO - Started process (PID=33892) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:34:37.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:34:37.160+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:34:37.173+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:34:37.311+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.311+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:37.342+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.342+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:34:37.163499+00:00, run_after=2023-12-27T12:34:37.163499+00:00
+[2023-12-26T12:34:37.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.212 seconds
+[2023-12-26T12:35:07.577+0000] {processor.py:161} INFO - Started process (PID=33908) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:35:07.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:35:07.579+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:07.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:35:07.594+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:35:07.777+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:07.776+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:07.806+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:07.806+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:35:07.582085+00:00, run_after=2023-12-27T12:35:07.582085+00:00
+[2023-12-26T12:35:07.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.260 seconds
+[2023-12-26T12:35:37.992+0000] {processor.py:161} INFO - Started process (PID=33924) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:35:37.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:35:37.995+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:37.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:35:38.008+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:35:38.143+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:38.143+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:38.173+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:38.173+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:35:37.997974+00:00, run_after=2023-12-27T12:35:37.997974+00:00
+[2023-12-26T12:35:38.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.227 seconds
+[2023-12-26T12:36:08.389+0000] {processor.py:161} INFO - Started process (PID=33940) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:36:08.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:36:08.391+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:36:08.407+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:36:08.554+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.554+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:08.583+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.583+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:36:08.394886+00:00, run_after=2023-12-27T12:36:08.394886+00:00
+[2023-12-26T12:36:08.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.222 seconds
+[2023-12-26T12:36:38.861+0000] {processor.py:161} INFO - Started process (PID=33956) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:36:38.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:36:38.864+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:38.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:36:38.882+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:36:39.043+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:39.043+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:39.066+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:39.065+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:36:38.868400+00:00, run_after=2023-12-27T12:36:38.868400+00:00
+[2023-12-26T12:36:39.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.232 seconds
+[2023-12-26T12:37:09.372+0000] {processor.py:161} INFO - Started process (PID=33973) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:37:09.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:37:09.381+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:37:09.404+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:37:09.545+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.545+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:09.570+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.570+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:37:09.389167+00:00, run_after=2023-12-27T12:37:09.389167+00:00
+[2023-12-26T12:37:09.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.224 seconds
+[2023-12-26T12:37:39.759+0000] {processor.py:161} INFO - Started process (PID=33989) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:37:39.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:37:39.762+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:39.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:37:39.779+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:37:39.936+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:39.935+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:39.961+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:39.961+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:37:39.766919+00:00, run_after=2023-12-27T12:37:39.766919+00:00
+[2023-12-26T12:37:39.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.230 seconds
+[2023-12-26T12:38:10.211+0000] {processor.py:161} INFO - Started process (PID=34006) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:38:10.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:38:10.213+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:38:10.229+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:38:10.399+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.399+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:10.423+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.423+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:38:10.216729+00:00, run_after=2023-12-27T12:38:10.216729+00:00
+[2023-12-26T12:38:10.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.250 seconds
+[2023-12-26T12:38:40.592+0000] {processor.py:161} INFO - Started process (PID=34022) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:38:40.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:38:40.594+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:40.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:38:40.609+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:38:40.738+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:40.738+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:40.764+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:40.763+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:38:40.597898+00:00, run_after=2023-12-27T12:38:40.597898+00:00
+[2023-12-26T12:38:40.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.200 seconds
+[2023-12-26T12:39:10.988+0000] {processor.py:161} INFO - Started process (PID=34038) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:39:10.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:39:10.991+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:10.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:39:11.008+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:39:11.204+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:11.203+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:11.236+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:11.236+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:39:10.994652+00:00, run_after=2023-12-27T12:39:10.994652+00:00
+[2023-12-26T12:39:11.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.278 seconds
+[2023-12-26T12:39:42.081+0000] {processor.py:161} INFO - Started process (PID=34054) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:39:42.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:39:42.084+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.084+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:39:42.098+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:39:42.219+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.219+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:42.251+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.250+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:39:42.087826+00:00, run_after=2023-12-27T12:39:42.087826+00:00
+[2023-12-26T12:39:42.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.196 seconds
+[2023-12-26T12:40:12.322+0000] {processor.py:161} INFO - Started process (PID=34069) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:40:12.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:40:12.324+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:40:12.336+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:40:12.457+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.456+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:12.477+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.477+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:40:12.327170+00:00, run_after=2023-12-27T12:40:12.327170+00:00
+[2023-12-26T12:40:12.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.180 seconds
+[2023-12-26T12:40:42.710+0000] {processor.py:161} INFO - Started process (PID=34086) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:40:42.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:40:42.712+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:42.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:40:42.728+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:40:42.852+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:42.851+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:42.875+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:42.874+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:40:42.716388+00:00, run_after=2023-12-27T12:40:42.716388+00:00
+[2023-12-26T12:40:42.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.190 seconds
+[2023-12-26T12:41:13.823+0000] {processor.py:161} INFO - Started process (PID=34102) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:41:13.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:41:13.825+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:13.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:41:13.838+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:41:13.985+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:13.985+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:14.025+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:14.025+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:41:13.828235+00:00, run_after=2023-12-27T12:41:13.828235+00:00
+[2023-12-26T12:41:14.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.230 seconds
+[2023-12-26T12:41:44.271+0000] {processor.py:161} INFO - Started process (PID=34118) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:41:44.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:41:44.274+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:41:44.287+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:41:44.406+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.406+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:44.435+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.435+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:41:44.276869+00:00, run_after=2023-12-27T12:41:44.276869+00:00
+[2023-12-26T12:41:44.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.189 seconds
+[2023-12-26T12:42:14.742+0000] {processor.py:161} INFO - Started process (PID=34133) to work on /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:42:14.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/refactor.py for tasks to queue
+[2023-12-26T12:42:14.745+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:14.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:42:14.759+0000] {processor.py:840} INFO - DAG(s) 'demonstrating_refactoring' retrieved from /opt/airflow/dags/production/refactor.py
+[2023-12-26T12:42:14.885+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:14.885+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:42:14.908+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:14.908+0000] {dag.py:3820} INFO - Setting next_dagrun for demonstrating_refactoring to 2023-12-26T12:42:14.748720+00:00, run_after=2023-12-27T12:42:14.748720+00:00
+[2023-12-26T12:42:14.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/refactor.py took 0.193 seconds

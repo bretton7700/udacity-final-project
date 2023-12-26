@@ -15749,3 +15749,135 @@ ModuleNotFoundError: No module named 'udacity.common'
 [2023-12-26T12:31:03.550+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
 [2023-12-26T12:31:03.591+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:03.590+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2023-12-26T12:31:03.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.239 seconds
+[2023-12-26T12:31:33.938+0000] {processor.py:161} INFO - Started process (PID=33789) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:31:33.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:31:33.940+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:33.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:31:34.068+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:31:34.109+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:34.109+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:31:34.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.226 seconds
+[2023-12-26T12:32:04.382+0000] {processor.py:161} INFO - Started process (PID=33805) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:32:04.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:32:04.385+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:32:04.593+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:32:04.637+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:04.637+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:04.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.320 seconds
+[2023-12-26T12:32:34.784+0000] {processor.py:161} INFO - Started process (PID=33821) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:32:34.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:32:34.787+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:34.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:32:34.925+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:32:34.957+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:32:34.957+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:32:35.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.235 seconds
+[2023-12-26T12:33:05.379+0000] {processor.py:161} INFO - Started process (PID=33837) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:33:05.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:33:05.382+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:05.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:33:05.578+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:33:05.675+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:05.675+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:05.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.370 seconds
+[2023-12-26T12:33:36.050+0000] {processor.py:161} INFO - Started process (PID=33859) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:33:36.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:33:36.052+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:33:36.238+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:33:36.279+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:33:36.279+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:33:36.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.300 seconds
+[2023-12-26T12:34:06.477+0000] {processor.py:161} INFO - Started process (PID=33875) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:34:06.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:34:06.479+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:34:06.633+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:34:06.680+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:06.680+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:06.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.280 seconds
+[2023-12-26T12:34:37.091+0000] {processor.py:161} INFO - Started process (PID=33891) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:34:37.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:34:37.093+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:34:37.256+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:34:37.321+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:34:37.320+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:34:37.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.297 seconds
+[2023-12-26T12:35:07.533+0000] {processor.py:161} INFO - Started process (PID=33907) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:35:07.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:35:07.536+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:07.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:35:07.655+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:35:07.691+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:07.691+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:07.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.236 seconds
+[2023-12-26T12:35:37.925+0000] {processor.py:161} INFO - Started process (PID=33923) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:35:37.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:35:37.928+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:37.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:35:38.130+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:35:38.172+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:35:38.172+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:35:38.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.300 seconds
+[2023-12-26T12:36:08.288+0000] {processor.py:161} INFO - Started process (PID=33939) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:36:08.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:36:08.291+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.291+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:36:08.469+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:36:08.506+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:08.505+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:08.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.273 seconds
+[2023-12-26T12:36:38.790+0000] {processor.py:161} INFO - Started process (PID=33955) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:36:38.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:36:38.792+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:38.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:36:38.926+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:36:38.976+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:36:38.976+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:36:39.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.241 seconds
+[2023-12-26T12:37:09.308+0000] {processor.py:161} INFO - Started process (PID=33972) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:37:09.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:37:09.310+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:37:09.497+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:37:09.544+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:09.543+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:09.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.285 seconds
+[2023-12-26T12:37:39.697+0000] {processor.py:161} INFO - Started process (PID=33988) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:37:39.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:37:39.699+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:39.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:37:39.829+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:37:39.859+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:37:39.859+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:37:39.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.212 seconds
+[2023-12-26T12:38:10.146+0000] {processor.py:161} INFO - Started process (PID=34005) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:38:10.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:38:10.148+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:38:10.283+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:38:10.325+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:10.325+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:10.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.233 seconds
+[2023-12-26T12:38:40.529+0000] {processor.py:161} INFO - Started process (PID=34021) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:38:40.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:38:40.532+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:40.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:38:40.711+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:38:40.751+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:38:40.751+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:38:40.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.291 seconds
+[2023-12-26T12:39:10.925+0000] {processor.py:161} INFO - Started process (PID=34037) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:39:10.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:39:10.928+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:10.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:39:11.112+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:39:11.154+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:11.153+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:11.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.297 seconds
+[2023-12-26T12:39:42.078+0000] {processor.py:161} INFO - Started process (PID=34053) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:39:42.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:39:42.084+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:39:42.225+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:39:42.260+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:39:42.260+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:39:42.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.234 seconds
+[2023-12-26T12:40:12.380+0000] {processor.py:161} INFO - Started process (PID=34070) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:40:12.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:40:12.383+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:40:12.553+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:40:12.594+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:12.593+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:12.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.275 seconds
+[2023-12-26T12:40:42.700+0000] {processor.py:161} INFO - Started process (PID=34085) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:40:42.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:40:42.702+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:42.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:40:42.919+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:40:42.952+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:40:42.952+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:40:43.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.305 seconds
+[2023-12-26T12:41:13.813+0000] {processor.py:161} INFO - Started process (PID=34101) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:41:13.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:41:13.815+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:13.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:41:13.948+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:41:13.981+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:13.981+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:14.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.237 seconds
+[2023-12-26T12:41:44.262+0000] {processor.py:161} INFO - Started process (PID=34117) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:41:44.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:41:44.265+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:41:44.386+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:41:44.413+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:41:44.413+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:41:44.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.201 seconds
+[2023-12-26T12:42:14.732+0000] {processor.py:161} INFO - Started process (PID=34132) to work on /opt/airflow/dags/production/production.py
+[2023-12-26T12:42:14.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/production.py for tasks to queue
+[2023-12-26T12:42:14.735+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:14.735+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/production.py
+[2023-12-26T12:42:14.889+0000] {processor.py:840} INFO - DAG(s) 'custom_operators_legacy' retrieved from /opt/airflow/dags/production/production.py
+[2023-12-26T12:42:14.919+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:42:14.918+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T12:42:14.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/production.py took 0.248 seconds
