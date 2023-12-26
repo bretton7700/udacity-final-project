@@ -40051,3 +40051,71 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/production/production.py                                 1           0  0.28s           2023-12-26T12:28:30
 /opt/airflow/dags/production/refactor.py                                   1           0  0.24s           2023-12-26T12:28:30
 ================================================================================
+[2023-12-26T12:29:12.855+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/production/full_dag.py                                   0           1  0.07s           2023-12-26T12:29:02
+/opt/airflow/dags/redshift_data.py                                         1           0  0.26s           2023-12-26T12:29:03
+/opt/airflow/dags/connections_hooks.py                                     1           0  0.41s           2023-12-26T12:29:06
+/opt/airflow/dags/lineage/partitioning.py                                  1           0  0.19s           2023-12-26T12:29:01
+/opt/airflow/dags/lineage/quality.py                                       1           0  0.26s           2023-12-26T12:29:01
+/opt/airflow/dags/lineage/lineage.py                                       1           0  0.27s           2023-12-26T12:29:02
+/opt/airflow/dags/lineage/schedule_fills.py                                1           0  0.20s           2023-12-26T12:29:02
+/opt/airflow/dags/final_project/final_project.py                           1           0  0.44s           2023-12-26T12:29:06
+/opt/airflow/dags/production/production.py                                 1           0  0.29s           2023-12-26T12:29:01
+/opt/airflow/dags/production/refactor.py                                   1           0  0.27s           2023-12-26T12:29:01
+================================================================================
+[2023-12-26T12:29:43.423+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/production/full_dag.py                                   0           1  0.06s           2023-12-26T12:29:32
+/opt/airflow/dags/redshift_data.py                                         1           0  0.23s           2023-12-26T12:29:33
+/opt/airflow/dags/connections_hooks.py                                     1           0  0.45s           2023-12-26T12:29:37
+/opt/airflow/dags/lineage/partitioning.py                                  1           0  0.15s           2023-12-26T12:29:32
+/opt/airflow/dags/lineage/quality.py                                       1           0  0.22s           2023-12-26T12:29:32
+/opt/airflow/dags/lineage/lineage.py                                       1           0  0.23s           2023-12-26T12:29:32
+/opt/airflow/dags/lineage/schedule_fills.py                                1           0  0.14s           2023-12-26T12:29:32
+/opt/airflow/dags/final_project/final_project.py                           1           0  0.44s           2023-12-26T12:29:37
+/opt/airflow/dags/production/production.py                                 1           0  0.24s           2023-12-26T12:29:32
+/opt/airflow/dags/production/refactor.py                                   1           0  0.22s           2023-12-26T12:29:32
+================================================================================
+[2023-12-26T12:30:13.876+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/production/full_dag.py                                   0           1  0.09s           2023-12-26T12:30:02
+/opt/airflow/dags/redshift_data.py                                         1           0  0.26s           2023-12-26T12:30:04
+/opt/airflow/dags/connections_hooks.py                                     1           0  0.43s           2023-12-26T12:30:07
+/opt/airflow/dags/lineage/partitioning.py                                  1           0  0.17s           2023-12-26T12:30:03
+/opt/airflow/dags/lineage/quality.py                                       1           0  0.31s           2023-12-26T12:30:03
+/opt/airflow/dags/lineage/lineage.py                                       1           0  0.25s           2023-12-26T12:30:03
+/opt/airflow/dags/lineage/schedule_fills.py                                1           0  0.18s           2023-12-26T12:30:03
+/opt/airflow/dags/final_project/final_project.py                           1           0  0.41s           2023-12-26T12:30:07
+/opt/airflow/dags/production/production.py                                 1           0  0.30s           2023-12-26T12:30:02
+/opt/airflow/dags/production/refactor.py                                   1           0  0.35s           2023-12-26T12:30:02
+================================================================================
+[2023-12-26T12:30:44.294+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/production/full_dag.py                                   0           1  0.06s           2023-12-26T12:30:33
+/opt/airflow/dags/redshift_data.py                                         1           0  0.24s           2023-12-26T12:30:34
+/opt/airflow/dags/connections_hooks.py                                     1           0  0.36s           2023-12-26T12:30:38
+/opt/airflow/dags/lineage/partitioning.py                                  1           0  0.19s           2023-12-26T12:30:33
+/opt/airflow/dags/lineage/quality.py                                       1           0  0.29s           2023-12-26T12:30:33
+/opt/airflow/dags/lineage/lineage.py                                       1           0  0.27s           2023-12-26T12:30:33
+/opt/airflow/dags/lineage/schedule_fills.py                                1           0  0.13s           2023-12-26T12:30:33
+/opt/airflow/dags/final_project/final_project.py                           1           0  0.41s           2023-12-26T12:30:38
+/opt/airflow/dags/production/production.py                                 1           0  0.32s           2023-12-26T12:30:33
+/opt/airflow/dags/production/refactor.py                                   1           0  0.29s           2023-12-26T12:30:33
+================================================================================

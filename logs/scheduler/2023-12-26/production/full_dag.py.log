@@ -25124,3 +25124,88 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 [2023-12-26T12:28:31.713+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/production/full_dag.py
 [2023-12-26T12:28:31.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/full_dag.py took 0.034 seconds
+[2023-12-26T12:29:02.304+0000] {processor.py:161} INFO - Started process (PID=33714) to work on /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:29:02.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/full_dag.py for tasks to queue
+[2023-12-26T12:29:02.307+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:29:02.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:29:02.313+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:29:02.312+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/production/full_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/production/full_dag.py", line 5, in <module>
+    from custom_operators.facts_calculator import FactsCalculatorOperator
+  File "/opt/airflow/plugins/custom_operators/facts_calculator.py", line 30
+    super(FactsCalculatorOperator, self).__init__(*args,* *kwargs)
+                                                          ^
+SyntaxError: invalid syntax
+[2023-12-26T12:29:02.313+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:29:02.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/full_dag.py took 0.044 seconds
+[2023-12-26T12:29:32.417+0000] {processor.py:161} INFO - Started process (PID=33729) to work on /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:29:32.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/full_dag.py for tasks to queue
+[2023-12-26T12:29:32.420+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:29:32.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:29:32.428+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:29:32.425+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/production/full_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/production/full_dag.py", line 5, in <module>
+    from custom_operators.facts_calculator import FactsCalculatorOperator
+  File "/opt/airflow/plugins/custom_operators/facts_calculator.py", line 30
+    super(FactsCalculatorOperator, self).__init__(*args,* *kwargs)
+                                                          ^
+SyntaxError: invalid syntax
+[2023-12-26T12:29:32.430+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:29:32.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/full_dag.py took 0.040 seconds
+[2023-12-26T12:30:02.535+0000] {processor.py:161} INFO - Started process (PID=33740) to work on /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:30:02.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/full_dag.py for tasks to queue
+[2023-12-26T12:30:02.540+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:30:02.540+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:30:02.555+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:30:02.552+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/production/full_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/production/full_dag.py", line 5, in <module>
+    from custom_operators.facts_calculator import FactsCalculatorOperator
+  File "/opt/airflow/plugins/custom_operators/facts_calculator.py", line 30
+    super(FactsCalculatorOperator, self).__init__(*args,* *kwargs)
+                                                          ^
+SyntaxError: invalid syntax
+[2023-12-26T12:30:02.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:30:02.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/full_dag.py took 0.066 seconds
+[2023-12-26T12:30:32.975+0000] {processor.py:161} INFO - Started process (PID=33756) to work on /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:30:32.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/full_dag.py for tasks to queue
+[2023-12-26T12:30:32.977+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:30:32.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:30:32.982+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:30:32.981+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/production/full_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/production/full_dag.py", line 5, in <module>
+    from custom_operators.facts_calculator import FactsCalculatorOperator
+  File "/opt/airflow/plugins/custom_operators/facts_calculator.py", line 30
+    super(FactsCalculatorOperator, self).__init__(*args,* *kwargs)
+                                                          ^
+SyntaxError: invalid syntax
+[2023-12-26T12:30:32.982+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:30:33.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/full_dag.py took 0.041 seconds
+[2023-12-26T12:31:03.405+0000] {processor.py:161} INFO - Started process (PID=33772) to work on /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:31:03.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/production/full_dag.py for tasks to queue
+[2023-12-26T12:31:03.409+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:03.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:31:03.416+0000] {logging_mixin.py:188} INFO - [2023-12-26T12:31:03.414+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/production/full_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/production/full_dag.py", line 5, in <module>
+    from custom_operators.facts_calculator import FactsCalculatorOperator
+  File "/opt/airflow/plugins/custom_operators/facts_calculator.py", line 30
+    super(FactsCalculatorOperator, self).__init__(*args,* *kwargs)
+                                                          ^
+SyntaxError: invalid syntax
+[2023-12-26T12:31:03.416+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/production/full_dag.py
+[2023-12-26T12:31:03.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/production/full_dag.py took 0.052 seconds
