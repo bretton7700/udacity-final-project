@@ -9,22 +9,22 @@
 # "description": "", 
 # "host": "", 
 # "schema": "", 
-# "login": "AKIATZS7MBBSL3CADLWH", 
-# "password": "Wcey0jCuq815FWr0i5ybWuvT+cloiwv88UW26c+L", 
+# "login": "key", 
+# "password": "pass", 
 # "port": null, 
 # "is_encrypted": "False", 
 # "is_extra_encrypted": "False", 
 # "extra_dejson": {}, 
-# "get_uri": "aws://AKIATZS7MBBSL3CADLWH:Wcey0jCuq815FWr0i5ybWuvT+cloiwv88UW26c+L"
+# "get_uri": "aws://key:pass"
 #}]
 #
 # Copy the value after "get_uri":
 #
-# For example: aws://AKIATZS7MBBSL3CADLWH:Wcey0jCuq815FWr0i5ybWuvT+cloiwv88UW26c+L
+# For example: aws://key:pass
 #
 # TO-DO: Update the following command with the URI and un-comment it:
 #
-# airflow connections add aws_credentials --conn-uri 'aws://AKIATZS7MBBSL3CADLWH:Wcey0jCuq815FWr0i5ybWuvT+cloiwv88UW26c+L'
+# airflow connections add aws_credentials --conn-uri 'aws://key:pass'
 #
 #
 # TO-DO: run the follwing command and observe the JSON output: 
@@ -34,27 +34,26 @@
 # "conn_id": "redshift", 
 # "conn_type": "redshift", 
 # "description": "", 
-# "host": "default-workgroup.261119281252.us-east-1.redshift-serverless.amazonaws.com", 
+# "host": "serveless", 
 # "schema": "dev", 
-# "login": "awsuser", 
-# "password": "aiGURU2023", 
+# "login": "user", 
+# "password": "pass", 
 # "port": "5439", 
 # "is_encrypted": "False", 
 # "is_extra_encrypted": "False", 
 # "extra_dejson": {}, 
-# "get_uri": "redshift://awsuser:aiGURU2023@default-workgroup.261119281252.us-east-1.redshift-serverless.amazonaws.com:5439/dev"}]
+# "get_uri": "redshift://user:pass@server:5439/dev"}]
 #
 # Copy the value after "get_uri":
 #
-# For example: redshift://awsuser:aiGURU2023@default-workgroup.261119281252.us-east-1.redshift-serverless.amazonaws.com:5439/dev
-#
+# For example: 
 # TO-DO: Update the following command with the URI and un-comment it:
 #
-# airflow connections add redshift --conn-uri 'redshift://awsuser:aiGURU2023@default-workgroup.261119281252.us-east-1.redshift-serverless.amazonaws.com:5439/dev'
+# airflow connections add redshift --conn-uri 
 #
 # TO-DO: update the following bucket name to match the name of your S3 bucket and un-comment it:
 #
-# airflow variables set s3_bucket gitongabretton
+# airflow variables set s3_bucket yourbucket
 #
 # TO-DO: un-comment the below line:
 #
